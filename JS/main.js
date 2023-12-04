@@ -40,7 +40,10 @@ const pesquisarCep = async() => {
      
 }
 
+console.log(document.getElementById('numero'))
+
 document.getElementById('cep')
         .addEventListener('focusout',pesquisarCep);
 
 document.getElementById('salvar').value = limparFormulario();
+
